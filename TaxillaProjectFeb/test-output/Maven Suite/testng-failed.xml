@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Maven Suite]">
+  <test name="Testname1(failed)">
+    <classes>
+      <class name="com.selenium.DataDriven.TestCases.Partnermanagment">
+        <methods>
+          <include name="init"/>
+          <include name="PartnerMangMenu" invocation-numbers="0"/>
+          <include name="PartneDeatilsPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.selenium.DataDriven.TestCases.Partnermanagment -->
+    </classes>
+  </test> <!-- Testname1(failed) -->
+</suite> <!-- Failed suite [Maven Suite] -->

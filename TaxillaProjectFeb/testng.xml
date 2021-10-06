@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Maven Suite">
+	
+	
+	<test name="Testname1" allow-return-values="true">
+	<classes>
+            <class name="com.selenium.DataDriven.TestCases.Partnermanagment"> </class>
+			
+        </classes>
+	
+	
+		
+	</test>
+	<test name="Testname2" allow-return-values="true">
+	<classes>
+            <class name="com.selenium.DataDriven.TestCases.TenantBasedPartition"> </class>
+			
+        </classes>
+	
+	
+		
+	</test>
+	
+	
+	
+	
+</suite>
+

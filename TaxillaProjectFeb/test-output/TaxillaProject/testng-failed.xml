@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TaxillaProject]">
+  <test name="Unlocking User Account(failed)">
+    <classes>
+      <class name="com.selenium.DataDriven.Unlock_User.UnlockingLockedUserAccount">
+        <methods>
+          <include name="quit"/>
+          <include name="unlockingUserAcc"/>
+          <include name="init"/>
+          <include name="lockingUserAcc"/>
+          <include name="permVerfUserUnLock"/>
+        </methods>
+      </class> <!-- com.selenium.DataDriven.Unlock_User.UnlockingLockedUserAccount -->
+    </classes>
+  </test> <!-- Unlocking User Account(failed) -->
+</suite> <!-- Failed suite [TaxillaProject] -->

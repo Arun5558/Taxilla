@@ -1,0 +1,9 @@
+all
+build
+clean
+compile
+init
+makexsltreports
+run
+setClassPath
+usage
